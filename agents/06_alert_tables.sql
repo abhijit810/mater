@@ -15,7 +15,7 @@ CREATE TABLE crash_alerts (
   alert_json  STRING
 ) WITH (
   'changelog.mode' = 'append',
-  'value.format'   = 'json-registry'
+  'value.format'   = 'json'  -- Changed from 'json-registry'
 );
 
 CREATE TABLE engine_alerts (
@@ -24,5 +24,5 @@ CREATE TABLE engine_alerts (
   alert_json STRING
 ) WITH (
   'changelog.mode' = 'append',
-  'value.format'   = 'json-registry'
+  'value.format'   = 'json'  -- Changed from 'json-registry'
 );

@@ -20,7 +20,7 @@ CREATE TABLE crash_signals (
   reason      STRING
 ) WITH (
   'changelog.mode' = 'append',
-  'value.format'   = 'json-registry'
+  'value.format'   = 'json'  -- Changed from 'json-registry'
 );
 
 CREATE TABLE engine_signals (
@@ -33,5 +33,5 @@ CREATE TABLE engine_signals (
   reason       STRING
 ) WITH (
   'changelog.mode' = 'append',
-  'value.format'   = 'json-registry'
+  'value.format'   = 'json'  -- Changed from 'json-registry'
 );

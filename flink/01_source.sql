@@ -34,5 +34,5 @@ CREATE TABLE vehicle_telemetry (
   WATERMARK FOR event_time AS event_time - INTERVAL '2' SECOND
 ) WITH (
   'changelog.mode' = 'append',
-  'value.format'   = 'json-registry'
+  'value.format'   = 'json'  -- Changed from 'json-registry'
 );
