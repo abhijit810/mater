@@ -1,0 +1,18 @@
+{
+  "vehicle_id": "JIO-OBD-0007",
+  "event_id": "7c1d2e4a-9f3b-4c5d-8a1e-2b3c4d5e6f70",
+  "event_time": "2026-06-25T13:45:02.123Z",
+  "speed_kmph": 82.5,
+  "engine_rpm": 3200,
+  "engine_load_pct": 64.0,
+  "throttle_pct": 41.0,
+  "coolant_temp_c": 92.0,
+  "intake_air_temp_c": 38.0,
+  "maf_gps": 12.4,
+  "fuel_level_pct": 57.0,
+  "battery_voltage": 13.9,
+  "odometer_km": 48213.6,
+  "dtc_codes": [],
+  "accel": { "x": 0.02, "y": -0.01, "z": 0.98 },
+  "gps": { "lat": 19.0760, "lon": 72.8777, "heading": 145, "altitude_m": 14 }
+}
